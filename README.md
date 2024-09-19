@@ -14,3 +14,7 @@ Cloned from https://github.com/varadbhogayata/varadbhogayata.github.io
 ## Activity 3:
 <img width="1101" alt="Screenshot 2024-09-18 at 10 03 06 PM" src="https://github.com/user-attachments/assets/a0bb097d-74f5-4175-a619-ca508698e755">
 <img width="932" alt="Screenshot 2024-09-18 at 10 03 25 PM" src="https://github.com/user-attachments/assets/279d34b4-fe3f-4546-aad7-7643044d1b65">
+
+## Activity 4:
+<img width="1277" alt="Screenshot 2024-09-19 at 10 20 26 AM" src="https://github.com/user-attachments/assets/c40bf873-2130-4c25-a0cf-65a86fc97515">
+<img width="920" alt="Screenshot 2024-09-19 at 10 21 05 AM" src="https://github.com/user-attachments/assets/d82a0c45-4eb2-4d5f-bc03-4b19df0f3db8">
