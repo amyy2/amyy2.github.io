@@ -680,7 +680,6 @@ small {
   }
   h3, .container {
     position: relative;
-    top: 64px;
   }
   section#intro {
     margin-bottom: -64px;
@@ -730,4 +729,12 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+}
+
+.map-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
 }
