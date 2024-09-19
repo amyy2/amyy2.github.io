@@ -46,7 +46,7 @@
   /* padding: 10px; */
 } 
 
-.title {
+.main-title {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -54,6 +54,11 @@
 
 h2 {
   margin: 0 20px 0 0;
+}
+
+.bow-icon {
+  margin-left: 40px;
+  height: 70px;
 }
 
 .cursive {
