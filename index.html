@@ -42,7 +42,7 @@
   <meta property="og:url" content="https://amyy2.github.io/" />
   <meta property="og:site_name" content="Amy Saranchuk" />
   <meta property="article:publisher" content="https://amyy2.github.io/" />
-  <meta property="og:image" content="https://AmySaranchuk.github.io/examples/preview.JPG" />
+  <meta property="og:image" content="https://amyy2.github.io/examples/preview.JPG" />
   <!-- Google Site Verification for indexing -->
   <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
@@ -94,11 +94,16 @@
       </li>
       
       <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark pink-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
         <!--
         ICONS:
         -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark pink-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
+        <a aria-label="Navigate to the Places Travelled section" href="#placesTravelled" class="waves-effect waves-dark pink-text"><i
+            class="mdi-maps-map small"></i><span>Places Travelled</span></a>
       </li>
 
       <li class="bold">
@@ -142,19 +147,23 @@
   <!-- Nav class 3 -->
   <nav class="hide-on-large only">
     <ul id="slide-out" class="side-nav">
+
       <li class="bold">
         <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark pink-text"><i
             class="mdi-social-person small"></i><span>About</span></a>
       </li>
+
       <li class="bold">
         <a aria-label="Navigate to the Experience section" href="#experience"
           class="waves-effect waves-dark pink-text"><i
             class="mdi-action-trending-up small"></i><span>Experience</span></a>
       </li>
+
       <li class="bold">
         <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark pink-text"><i
             class="mdi-av-my-library-books small"></i><span>Projects</span></a>
       </li>
+
       <li class="bold">
         <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark pink-text"><i
             class="mdi-action-assessment small"></i><span>Skills</span></a>
@@ -164,15 +173,23 @@
         <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark pink-text"><i
             class="mdi-social-school small"></i><span>Education</span></a>
       </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Places Travelled section" href="#placesTravelled" class="waves-effect waves-dark pink-text"><i
+            class="mdi-maps-map small"></i><span>Places Travelled</span></a>
+      </li>
+
       <li class="bold">
         <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark pink-text"><i
             class="mdi-content-mail small"></i><span>Contact</span></a>
       </li>
+
       <li class="bold">
         <a aria-label="Open Amy's Resume in a new tab"
           target="_blank"
           class="waves-effect waves-dark pink-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
+
     </ul>
   </nav>
 
@@ -346,7 +363,28 @@
       </div>
     </section>
 
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text pink">Recent Projects</h3>
+      
+      <div class="projects-container" id="projects-container">
+
+        <!-- Latest project -->
+        <div id="latestProject" class="project"></div>
+
+        <!-- Other projects-->
+        <button id="viewMoreButton" onclick="renderMoreProjects()">View more projects</button>
+        
+        <div id="previous-projects">
+          <img class="decor" src="assets/img/my_images/text-decor.webp">
+          <h1 class="title">Previous projects</h1>
+        </div>
+
+      </div>
+
+    </section>
+
     <!-- Fourth Section: Projects -->
+    <!--
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text pink">Projects</h3>
       <div class="container">
@@ -546,11 +584,10 @@
               </div>
             </div>
           </div>
-
-          <!-- ************* -->
         </div>
       </div>
     </section>
+    -->
 
     <!-- Fifth Section: Skills -->
     <section id="skills" class="section scrollspy">
@@ -710,7 +747,7 @@
       </div>
     </section>
     
-    <section id="map">
+    <section id="placesTravelled" class="section scrollspy">
       <h3 class="page-title white-text pink">Places I've Been</h3>
       <div class="map-container">
         <iframe src="https://www.google.com/maps/d/embed?mid=1sOjsExt1TTaHXa3RJo6H8nNgBo4YRBc&ehbc=2E312F" width="640" height="480"></iframe>
@@ -779,6 +816,9 @@
       })
     })
   </script>
+
+  <script src="assets/projects.js"></script>
+
 </body>
 
 </html>
